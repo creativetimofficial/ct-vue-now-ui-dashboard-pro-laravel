@@ -1,14 +1,14 @@
-# [Vue Argon Dashboard Pro Laravel](https://vue-argon-dashboard-pro-laravel.creative-tim.com/?ref=vadpl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Vue%20Argon%20Dashboard%20Pro%20Laravel%E2%9D%A4%EF%B8%8F%0Ahttps%3A//vue-argon-dashboard-pro-laravel.creative-tim.com/%20%23%vue%20%23%argon%20%23design%20%23dashboard%20%23laravel%20%23pro%20via%20%40CreativeTim)
+# [Vue Now UI Dashboard Pro Laravel](https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/?ref=vnudpl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Vue%Now%Ui%20Dashboard%20Pro%20Laravel%E2%9D%A4%EF%B8%8F%0Ahttps%3A//vue-now-ui-dashboard-pro-laravel.creative-tim.com/%20%23%vue%20%23%now%ui%20%23design%20%23dashboard%20%23laravel%20%23pro%20via%20%40CreativeTim)
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-vue-argon-dashboard-pro-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-vue-argon-dashboard-pro-laravel/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-vue-argon-dashboard-pro-laravel/ct-vue-argon-dashboard-pro-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-vue-argon-dashboard-pro-laravel/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-vue-now-ui-dashboard-pro-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-vue-now-ui-dashboard-pro-laravel/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-vue-now-ui-dashboard-pro-laravel/ct-vue-now-ui-dashboard-pro-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-vue-now-ui-dashboard-pro-laravel/issues?q=is%3Aissue+is%3Aclosed)
 
-_Frontend version_: Argon Dashboard v1.2.0. More info at https://www.creative-tim.com/product/argon-dashboard-pro
+_Frontend version_: Now UI Dashboard v1.5.0. More info at https://www.creative-tim.com/product/now-ui-dashboard-pro
 
-_Vue version_: Vue Argon Dashboard v1.2.2. More info at https://www.creative-tim.com/product/vue-argon-dashboard-pro
+_Vue version_: Vue Now UI Dashboard v1.2.0. More info at https://www.creative-tim.com/product/vue-now-ui-dashboard-pro
 
-![Product Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-pro/intro.gif)
+![Product Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-laravel-pro/intro.gif)
 
-What if you could go from frontend to fullstack in an instant when building your app? We partnered with [UPDIVISION](https://updivision.com) to bring you Vue Argon Dashboard PRO Laravel , the ultimate fullstack resource. Vue Argon Dashboard PRO Laravel comes not only with a huge number of UI components and a Vue Argon frontend, but also with an API-powered Laravel backend.
+What if you could go from frontend to fullstack in an instant when building your app? We partnered with [UPDIVISION](https://updivision.com) to bring you Vue Now UI Dashboard PRO Laravel, the ultimate fullstack resource. Vue Now UI Dashboard PRO Laravel comes not only with a huge number of UI components and a Vue Now UI frontend, but also with an API-powered Laravel backend.
 
 # Download
 
@@ -54,13 +54,13 @@ Install VueCLI: https://cli.vuejs.org/guide/installation.html
 7. Install Laravel Passport: `php artisan passport:install`
 8. Add your own mailtrap.io credentials in MAIL_USERNAME and MAIL_PASSWORD in the .env file
 
-## Vue Argon Dashboard Project Installation
+## Vue Now UI Dashboard Project Installation
 
-1. Navigate to your Vue Argon Dashboard project folder: `cd your-vue-argon-dashbord-project`
+1. Navigate to your Vue Now UI Dashboard project folder: `cd your-vue-now-ui-dashbord-project`
 2. Install project dependencies: `npm install`
 3. Create a new .env file: `cp .env.example .env`
-4. `APP_BASE_URL` should contain the URL of your Vue Argon Dashboard Project (eg. http://localhost:8080/)
-5. `API_BASE_URL` should contain the URL of your Laravel JSON:API Project. (eg. http://localhost:3000/api/v1)
+4. `VUE_APP_BASE_URL` should contain the URL of your Vue Now Ui Dashboard Project (eg. http://localhost:8080/)
+5. `VUE_APP_API_BASE_URL` should contain the URL of your Laravel JSON:API Project. (eg. http://localhost:3000/api/v1)
 6. Run `npm run dev` to start the application in a local development environment or `npm run build` to build release distributables.
 
 ## Usage
@@ -71,7 +71,7 @@ To start testing the Pro theme, register as a user or log in using one of the de
 - creator type - **creator@jsonapi.com** with the password **secret**
 - member type - **member@jsonapi.com** with the password **secret**
 
-In addition to the features included in the free theme, the Pro theme also has a role management example with an updated user management, as well as tag management, category management and item management examples. All the necessary files are installed out of the box and all the needed routes are added to `src\router\routes.js`. Keep in mind that all the features can be viewed once you log in using the credentials provided above or by registering your own user.
+In addition to the features included in the free theme, the Pro theme also has a role management example with an updated user management, as well as tag management, category management and item management examples. All the necessary files are installed out of the box and all the needed routes are added to `src\routes\routes.js`. Keep in mind that all the features can be viewed once you log in using the credentials provided above or by registering your own user.
 
 Each role has a different privilege level and can perform a certain number of actions according to this level.
 
@@ -87,86 +87,67 @@ You can access the dashboard either by using the "**Dashboards/Dashboard**" link
 
 The login functionality is fully implemented in our theme helping you to start your project in no time. To login into dashboard you just have to add **/login** in the URL and fill the login form with one of the credentials (user: **admin@jsonapi.com**, **creator@jsonapi.com**, **member@jsonapi.com** and password: **secret**).
 
-The `src\views\Pages\Login.vue` is the Vue component which handles the login functinality. You can easily adapt it to your needs.
+The `src\pages\Dashboard\Pages\Login.vue` is the Vue component which handles the login functinality. You can easily adapt it to your needs.
 
 It uses the auth store located in `src\store\modules\auth.js`.
 
 ### Login Card
 
 ```
-<div class="container mt--8 pb-5">
-  <div class="row justify-content-center">
-    <div class="col-lg-5 col-md-7">
-      <div class="card bg-secondary border-0 mb-0">
-        <div class="card-header bg-transparent pb-5">
-          <div class="text-muted text-center mt-2 mb-3">
-            <small>Sign in with</small>
-          </div>
-          <div class="btn-wrapper text-center">
-            <a href="#" class="btn btn-neutral btn-icon">
-              <span class="btn-inner--icon"
-                ><img src="/img/icons/common/github.svg"
-              /></span>
-              <span class="btn-inner--text">Github</span>
-            </a>
-            <a href="#" class="btn btn-neutral btn-icon">
-              <span class="btn-inner--icon"
-                ><img src="/img/icons/common/google.svg"
-              /></span>
-              <span class="btn-inner--text">Google</span>
-            </a>
-          </div>
+<div class="col-md-4 ml-auto mr-auto" style="margin-top: 35px">
+  <form role="form" @submit.prevent="handleSubmit()">
+    <card class="card-login card-plain">
+      <div slot="header">
+        <div class="logo-container">
+          <img src="/img/now-logo.png" alt="" />
         </div>
-        <div class="card-body px-lg-5 py-lg-5">
-          <div class="text-center text-muted mb-4">
-            <small>Or sign in with credentials</small>
-          </div>
-          <form role="form" @submit.prevent="handleSubmit()">
-            <base-input
-              alternative
-              class="mb-3"
-              name="Email"
-              prepend-icon="ni ni-email-83"
-              placeholder="Email"
-              v-model="email"
-            />
-            <validation-error :errors="apiValidationErrors.email" />
+      </div>
 
-            <base-input
-              alternative
-              class="mb-3"
-              name="Password"
-              :rules="{ required: true, min: 6 }"
-              prepend-icon="ni ni-lock-circle-open"
-              type="password"
-              placeholder="Password"
-              v-model="password"
+      <div>
+        <fg-input
+          v-model="email"
+          name="email"
+          class="no-border form-control-lg"
+          placeholder="Email"
+          addon-left-icon="now-ui-icons ui-1_email-85"
+          :error="apiValidationErrors.email"
+        >
+        </fg-input>
+
+        <fg-input
+          v-model="password"
+          type="password"
+          name="password"
+          class="no-border form-control-lg"
+          placeholder="Password"
+          addon-left-icon="now-ui-icons ui-1_lock-circle-open"
+          :error="apiValidationErrors.password"
+        >
+        </fg-input>
+      </div>
+
+      <div slot="footer">
+        <n-button native-type="submit" type="primary" round block>
+          Get Started
+        </n-button>
+        <div class="pull-left">
+          <h6>
+            <router-link class="link footer-link" to="/register">
+              Create Account
+            </router-link>
+          </h6>
+        </div>
+
+        <div class="pull-right">
+          <h6>
+            <a href="/password/reset" class="link footer-link"
+              >Forgot password?</a
             >
-            </base-input>
-            <validation-error :errors="apiValidationErrors.password" />
-
-            <div class="text-center">
-              <base-button type="primary" native-type="submit" class="my-4"
-                >Sign in</base-button
-              >
-            </div>
-          </form>
+          </h6>
         </div>
       </div>
-      <div class="row mt-3">
-        <div class="col-6">
-          <router-link to="/password/reset" class="text-light"
-            ><small>Forgot password?</small></router-link
-          >
-        </div>
-        <div class="col-6 text-right">
-          <router-link to="/register" class="text-light"
-            ><small>Create new account</small></router-link
-          >
-        </div>
-      </div>
-    </div>
-  </div>
+    </card>
+  </form>
 </div>
 ```
 
@@ -174,153 +155,85 @@ It uses the auth store located in `src\store\modules\auth.js`.
 
 The register functionality is fully implemented in our theme helping you to start your project in no time. To register a new user you just have to add **/register** in the URL or click on register link from login page and fill the register form with user details.
 
-The `src\views\pages\Register.vue` is the Vue component which handles the login functinality. You can easily extend it to your needs.
+The `src\pages\Dashboard\Pages\Register.vue` is the Vue component which handles the login functinality. You can easily extend it to your needs.
 
 It uses the auth store located in `src\store\modules\auth.js`.
 
 #### Register card
 
 ```
-<div class="container mt--8 pb-5">
-  <!-- Table -->
-  <div class="row justify-content-center">
-    <div class="col-lg-6 col-md-8">
-      <div class="card bg-secondary border-0">
-        <div class="card-header bg-transparent pb-5">
-          <div class="text-muted text-center mt-2 mb-4">
-            <small>Sign up with</small>
-          </div>
-          <div class="text-center">
-            <a href="#" class="btn btn-neutral btn-icon mr-4">
-              <span class="btn-inner--icon"
-                ><img src="/img/icons/common/github.svg"
-              /></span>
-              <span class="btn-inner--text">Github</span>
-            </a>
-            <a href="#" class="btn btn-neutral btn-icon">
-              <span class="btn-inner--icon"
-                ><img src="/img/icons/common/google.svg"
-              /></span>
-              <span class="btn-inner--text">Google</span>
-            </a>
-          </div>
+<div class="col-lg-4 mr-auto">
+  <form role="form" @submit.prevent="handleSubmit">
+    <card class="card-signup text-center" no-footer-line>
+      <template slot="header">
+        <h4 class="card-title">Register</h4>
+        <div class="social">
+          <button class="btn btn-icon btn-round btn-twitter">
+            <i class="fab fa-twitter"></i>
+          </button>
+          <button class="btn btn-icon btn-round btn-dribbble">
+            <i class="fab fa-dribbble"></i>
+          </button>
+          <button class="btn btn-icon btn-round btn-facebook">
+            <i class="fab fa-facebook"> </i>
+          </button>
+          <h5 class="card-description">or be classical</h5>
         </div>
-        <div class="card-body px-lg-5 py-lg-5">
-          <div class="text-center text-muted mb-4">
-            <small>Or sign up with credentials</small>
-          </div>
-          <form role="form" @submit.prevent="handleSubmit()">
-            <base-input
-              alternative
-              class="mb-3"
-              prepend-icon="ni ni-hat-3"
-              placeholder="Name"
-              name="Name"
-              v-model="name"
-            >
-            </base-input>
-            <validation-error :errors="apiValidationErrors.name" />
+      </template>
 
-            <base-input
-              alternative
-              class="mb-3"
-              prepend-icon="ni ni-email-83"
-              placeholder="Email"
-              name="Email"
-              v-model="email"
-            >
-            </base-input>
-            <validation-error :errors="apiValidationErrors.email" />
+      <fg-input
+        v-model="name"
+        name="name"
+        placeholder="Name"
+        addon-left-icon="now-ui-icons users_circle-08"
+        :error="apiValidationErrors.name"
+      >
+      </fg-input>
 
-            <base-input
-              alternative
-              class="mb-3"
-              prepend-icon="ni ni-lock-circle-open"
-              placeholder="Password"
-              type="password"
-              name="Password"
-              v-model="password"
-            >
-            </base-input>
-            <password
-              class="mb-3"
-              v-model="password"
-              :strength-meter-only="true"
-              @score="showScore"
-              :showStrengthMeter="false"
-            />
+      <fg-input
+        v-model="email"
+        name="email"
+        placeholder="Email"
+        addon-left-icon="now-ui-icons ui-1_email-85"
+        :error="apiValidationErrors.email"
+      >
+      </fg-input>
 
-            <validation-error :errors="apiValidationErrors.password" />
+      <fg-input
+        v-model="password"
+        name="password"
+        placeholder="Password"
+        addon-left-icon="now-ui-icons ui-1_lock-circle-open"
+        type="password"
+        :error="apiValidationErrors.password"
+      >
+      </fg-input>
 
-            <base-input
-              alternative
-              class="mb-3"
-              prepend-icon="ni ni-lock-circle-open"
-              placeholder="Confirm Password"
-              type="password"
-              name="Password confirmation"
-              v-model="password_confirmation"
-            >
-            </base-input>
-            <validation-error
-              :errors="apiValidationErrors.password_confirmation"
-            />
+      <fg-input
+        v-model="password_confirmation"
+        name="confirmPassword"
+        placeholder="Confirm Password"
+        addon-left-icon="now-ui-icons ui-1_lock-circle-open"
+        type="password"
+        :error="apiValidationErrors.password_confirmation"
+      >
+      </fg-input>
 
-            <div class="text-muted font-italic">
-              <small
-                >password strength:
-                <template v-if="scors === 0">
-                  <span class="text-danger font-weight-700">
-                    very weak
-                  </span>
-                </template>
+      <checkbox class="text-left" v-model="boolean">
+        I agree to the <a href="#something">terms and conditions</a>.
+      </checkbox>
 
-                <template v-if="scors === 1">
-                  <span class="text-danger font-weight-700"> weak </span>
-                </template>
-
-                <template v-if="scors === 2">
-                  <span class="text-warning font-weight-700"> medium </span>
-                </template>
-
-                <template v-if="scors === 3">
-                  <span class="text-success font-weight-700"> strong </span>
-                </template>
-
-                <template v-if="scors === 4">
-                  <span class="text-success font-weight-700">
-                    very strong
-                  </span>
-                </template>
-              </small>
-
-            </div>
-            <div class="row my-4">
-              <div class="col-12">
-                <base-input
-                  :rules="{ required: { allowFalse: false } }"
-                  name="Privacy"
-                  Policy
-                >
-                  <base-checkbox v-model="boolean">
-                    <span class="text-muted"
-                      >I agree with the
-                      <a href="#!">Terms and conditions</a></span
-                    >
-                  </base-checkbox>
-                </base-input>
-              </div>
-            </div>
-            <div class="text-center">
-              <base-button type="primary" native-type="submit" class="my-4"
-                >Create account</base-button
-              >
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+      <n-button
+        slot="footer"
+        type="primary"
+        native-type="submit"
+        round
+        size="lg"
+      >
+        Get Started
+      </n-button>
+    </card>
+  </form>
 </div>
 ```
 
@@ -328,63 +241,63 @@ It uses the auth store located in `src\store\modules\auth.js`.
 
 You have the option to edit the current logged in user's profile information (name, email, profile picture) and password. To access this page, just click the "**Examples/Profile**" link in the left sidebar or add **/examples/user-profile** in the URL.
 
-The `src\views\Examples\UserProfile` is the folder with Vue components that handle the update of the user information and password.
+The `src\pages\Dashboard\Examples\UserProfile` is the folder with Vue components that handle the update of the user information and password.
 
 #### Edit profile component
 
 ```
 <template>
-    <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="col-xl-6 order-xl-1" >
-                <div>
-                    <user-edit-card :user="user"/>
-                </div>
-                <div class="mt-5">
-                    <user-password-card :user="user"/>
-                </div>
-            </div>
-            <div class="col-xl-6 order-xl-2">
-                <user-card />
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-lg-8">
+      <div>
+        <user-edit-card :user="user" />
+      </div>
+      <div class="mt-5">
+        <user-password-card :user="user" />
+      </div>
     </div>
+    <div class="col-lg-4">
+      <user-card />
+    </div>
+  </div>
 </template>
+
 <script>
-import UserEditCard from '@/views/Examples/UserProfile/UserEditCard.vue'
-import UserPasswordCard from '@/views/Examples/UserProfile/UserPasswordCard.vue'
-import UserCard from '@/views/Pages/UserProfile/UserCard.vue'
+import UserEditCard from "@/pages/Dashboard/Examples/UserProfile/EditProfileCard.vue";
+import UserPasswordCard from "@/pages/Dashboard/Examples/UserProfile/EditPasswordCard.vue";
+import UserCard from "@/pages/Dashboard/Pages/UserProfile/UserCard.vue";
 
 export default {
-    layout: 'DashboardLayout',
+  name: "user-profile-example",
 
-    components: {
-        UserEditCard,
-        UserPasswordCard,
-        UserCard
-    },
+  components: {
+    "user-card": UserCard,
+    "user-edit-card": UserEditCard,
+    "user-password-card": UserPasswordCard,
+  },
 
-    data() {
-        return {
-            user: {
-                type: 'profile',
-                name: null,
-                email: null,
-                profile_image: null,
-            }
-        }
-    },
-     created() {
-      this.getProfile();
-    },
+  data() {
+    return {
+      user: {
+        type: "profile",
+        name: null,
+        email: null,
+        profile_image: null,
+      },
+    };
+  },
 
-    methods: {
-      async getProfile() {
-        await this.$store.dispatch("profile/me")
-        this.user = await {...this.$store.getters["profile/me"]}
-      }
-    }
-}
+  created() {
+    this.getProfile();
+  },
+
+  methods: {
+    async getProfile() {
+      await this.$store.dispatch("profile/me");
+      this.user = await this.$store.getters["profile/me"];
+    },
+  },
+};
 </script>
 ```
 
@@ -394,11 +307,11 @@ export default {
 <template>
   <div class="card">
     <div class="card-header">
-      <h1>Change Password</h1>
+      <h3>Change Password</h3>
     </div>
     <div class="card-body">
       <form ref="password_form" @submit.prevent="handleChangePassword">
-        <base-input
+        <fg-input
           v-model="password"
           type="password"
           name="new_password"
@@ -406,10 +319,11 @@ export default {
           class="mb-3"
           prepend-icon="fa fa-key"
           placeholder="New Password"
+          addon-left-icon="now-ui-icons ui-1_lock-circle-open"
+          :error="apiValidationErrors.password"
         />
-        <validation-error :errors="apiValidationErrors.password" />
 
-        <base-input
+        <fg-input
           v-model="password_confirmation"
           type="password"
           name="confirm_password"
@@ -417,35 +331,27 @@ export default {
           class="mb-3"
           prepend-icon="fa fa-key"
           placeholder="Confirm Password"
+          addon-left-icon="now-ui-icons ui-1_lock-circle-open"
+          :error="apiValidationErrors.password_confirmation"
         />
-        <validation-error :errors="apiValidationErrors.password_confirmation" />
         <div class="my-4">
-          <base-button
+          <n-button
             type="button"
             class="btn btn-sm btn-primary"
             native-type="submit"
           >
             Change Password
-          </base-button>
+          </n-button>
         </div>
       </form>
     </div>
   </div>
 </template>
 <script>
-import BaseInput from "@/components/Inputs/BaseInput.vue";
-import BaseButton from "@/components/BaseButton.vue";
 import formMixin from "@/mixins/form-mixin";
-import ValidationError from "@/components/ValidationError.vue";
 
 export default {
   name: "UserPasswordCard",
-
-  components: {
-    BaseInput,
-    BaseButton,
-    ValidationError,
-  },
 
   mixins: [formMixin],
 
@@ -462,36 +368,37 @@ export default {
 
   methods: {
     async handleChangePassword() {
-      if (["1", "2", "3"].includes(this.user.id)) {
-        this.$notify({
-          type: "danger",
-          message: "You are not allowed not change data of default users."
-        });
+      if (this.$isDemo == 1 && ["1", "2", "3"].includes(this.user.id)) {
+        await this.$store.dispatch(
+          "alerts/error",
+          "You are not allowed to change data of default users."
+        );
         return;
       }
       this.user.password = this.password;
       this.user.password_confirmation = this.password_confirmation;
 
       try {
+        this.resetApiValidation();
         await this.$store.dispatch("users/update", this.user);
         this.$refs["password_form"].reset();
-        this.resetApiValidation();
 
-        this.$notify({
-          type: "success",
-          message: "Password changed successfully.",
-        });
+        await this.$store.dispatch(
+          "alerts/success",
+          "Password changed successfully."
+        );
       } catch (error) {
-        this.$notify({
-          type: "danger",
-          message: "Oops, something went wrong!",
-        });
+        await this.$store.dispatch(
+          "alerts/error",
+          "Oops, something went wrong!"
+        );
         this.setApiValidation(error.response.data.errors);
       }
     },
   },
 };
 </script>
+
 ```
 
 ### Role management
@@ -501,7 +408,7 @@ To add a new role, click the "**Add role**" button. To edit an existing role, cl
 
 The store used for role functionality is found in `src\store\modules\roles-module.vue`
 
-You can find the compoments for role functionality in `src\views\Examples\RoleManagement` folder.
+You can find the compoments for role functionality in `src\pages\Dashboard\Examples\RoleManagement` folder.
 
 #### List page
 
@@ -511,12 +418,14 @@ You can find the compoments for role functionality in `src\views\Examples\RoleMa
     class="col-12 d-flex justify-content-center justify-content-sm-between flex-wrap"
   >
     <el-select
-      class="select-primary pagination-select"
+      class="select-primary mb-3"
+      style="width: 200px"
+      name="pages"
       v-model="pagination.perPage"
       placeholder="Per page"
     >
       <el-option
-        class="select-primary"
+        class="select-default"
         v-for="item in pagination.perPageOptions"
         :key="item"
         :label="item"
@@ -524,56 +433,67 @@ You can find the compoments for role functionality in `src\views\Examples\RoleMa
       >
       </el-option>
     </el-select>
-
-    <div>
-      <base-input
+    <fg-input>
+      <el-input
         v-model="query"
         type="search"
-        prepend-icon="fas fa-search"
-        placeholder="Search..."
+        class="mb-3"
         clearable
-      />
-    </div>
+        prefix-icon="el-icon-search"
+        style="width: 200px"
+        placeholder="Search..."
+        aria-controls="datatables"
+      >
+      </el-input>
+    </fg-input>
   </div>
   <el-table
-    class="table-responsive align-items-center table-flush"
-    header-row-class-name="thead-light"
-    :data="roles"
+    stripe
+    style="width: 100%"
+    :data="tableData"
     @sort-change="sortChange"
   >
     <div slot="empty" v-if="loading">
       <img src="/img/loading.gif" style="height: 100px; width: 100px" />
     </div>
-    <el-table-column label="Name" prop="name" sortable="custom" />
     <el-table-column
-      label="Created At"
-      prop="created_at"
+      v-for="column in tableColumns"
+      :key="column.label"
+      :min-width="column.minWidth"
+      :prop="column.prop"
+      :label="column.label"
       sortable="custom"
-    />
-    <el-table-column align="center">
-      <div slot-scope="{ row }" class="table-actions">
-        <el-tooltip content="Edit" placement="top">
-          <a
-            type="text"
-            @click="editRole(row)"
-            class="table-action"
-            data-toggle="tooltip"
-            style="cursor: pointer"
+    >
+    </el-table-column>
+    <el-table-column :min-width="135" fixed="right" label="Actions">
+      <div
+        slot-scope="{ row }"
+        class="table-actions"
+        style="margin-left: 10px"
+      >
+        <el-tooltip content="Edit" :open-delay="300" placement="top">
+          <n-button
+            @click.native="editRole(row.id)"
+            type="info"
+            size="sm"
+            round
+            icon
           >
-            <i class="fas fa-user-edit" />
-          </a>
+            <i class="now-ui-icons ui-2_settings-90"></i>
+          </n-button>
         </el-tooltip>
 
-        <el-tooltip content="Delete" placement="top">
-          <a
-            type="text"
-            @click="deleteRole(row.id)"
-            class="table-action table-action-delete"
-            data-toggle="tooltip"
-            style="cursor: pointer"
+        <el-tooltip content="Delete" :open-delay="300" placement="top">
+          <n-button
+            @click.native="deleteRole(row.id)"
+            class="remove"
+            type="danger"
+            size="sm"
+            round
+            icon
           >
-            <i class="fas fa-trash" />
-          </a>
+            <i class="fa fa-times"></i>
+          </n-button>
         </el-tooltip>
       </div>
     </el-table-column>
@@ -586,20 +506,21 @@ You can find the compoments for role functionality in `src\views\Examples\RoleMa
 ```
 <div class="card-body">
   <form ref="profile_form" @submit.prevent="handleSubmit">
-    <base-input
-      label="Name"
-      prepend-icon="fas fa-user"
+    <label>Name</label>
+    <fg-input
+      addon-left-icon="now-ui-icons users_circle-08"
       v-model="role.name"
+      :error="apiValidationErrors.name"
     />
-    <validation-error :errors="apiValidationErrors.name" />
+
     <div class="my-4">
-      <base-button
+      <n-button
         type="button"
         class="btn btn-sm btn-primary"
         native-type="submit"
       >
         Update Role
-      </base-button>
+      </n-button>
     </div>
   </form>
 </div>
@@ -612,86 +533,130 @@ The first thing you will see is a list of existing users. You can add new ones b
 
 The store used for role functionality is found in `src\store\modules\users-module.vue`
 
-You can find the compoments for role functionality in `src\views\Examples\UserManagement` folder.
+You can find the compoments for role functionality in `src\pages\Dashboard\Examples\UserManagement` folder.
 
 Once you add more users, the list will grow and for every user you will have edit and delete options (access these options by clicking the three dotted menu that appears at the end of every row).
 
 ```
-<el-table
-  class="table-responsive align-items-center table-flush"
-  header-row-class-name="thead-light"
-  :data="users"
-  @sort-change="sortChange"
->
-  <div slot="empty" v-if="loading">
-    <img src="/img/loading.gif" style="height: 100px; width: 100px" />
-  </div>
-  <el-table-column label="Author" min-width="50px">
-    <template v-slot="{ row }">
-      <img
-        v-if="row.profile_image"
-        :src="row.profile_image"
-        class="avatar rounded-circle mr-3"
-      />
-    </template>
-  </el-table-column>
-
-  <el-table-column
-    label="Name"
-    min-width="60px"
-    prop="name"
-    sortable="custom"
-  />
-  <el-table-column
-    label="Email"
-    min-width="90px"
-    prop="email"
-    sortable="custom"
-  />
-  <el-table-column
-    label="Role"
-    min-width="60px"
-    prop="roles.name"
-    sortable="custom"
+<div>
+  <div
+    class="col-12 d-flex justify-content-center justify-content-sm-between flex-wrap"
   >
-    <template v-slot="{ row }">
-      <span>{{ row.roles[0].name }}</span>
-    </template>
-  </el-table-column>
-  <el-table-column
-    label="Created At"
-    prop="created_at"
-    min-width="100px"
-    sortable="custom"
-  />
-  <el-table-column min-width="50px" align="center">
-    <div slot-scope="{ row }" class="table-actions">
-      <el-tooltip content="Edit" placement="top">
-        <a
-          type="text"
-          @click="editUser(row)"
-          class="table-action"
-          data-toggle="tooltip"
-          style="cursor: pointer"
-        >
-          <i class="fas fa-user-edit"></i>
-        </a>
-      </el-tooltip>
-
-      <el-tooltip content="Delete" placement="top">
-        <a
-          type="text"
-          @click="deleteUser(row.id)"
-          class="table-action table-action-delete"
-          data-toggle="tooltip"
-          style="cursor: pointer"
-        >
-          <i class="fas fa-trash"></i>
-        </a>
-      </el-tooltip>
+    <el-select
+      class="select-primary mb-3"
+      style="width: 200px"
+      name="pages"
+      v-model="pagination.perPage"
+      placeholder="Per page"
+    >
+      <el-option
+        class="select-default"
+        v-for="item in pagination.perPageOptions"
+        :key="item"
+        :label="item"
+        :value="item"
+      >
+      </el-option>
+    </el-select>
+    <fg-input>
+      <el-input
+        v-model="query"
+        type="search"
+        class="mb-3"
+        clearable
+        prefix-icon="el-icon-search"
+        style="width: 200px"
+        placeholder="Search..."
+        aria-controls="datatables"
+      >
+      </el-input>
+    </fg-input>
+  </div>
+  <el-table
+    stripe
+    style="width: 100%"
+    :data="tableData"
+    @sort-change="sortChange"
+  >
+    <div slot="empty" v-if="loading">
+      <img src="/img/loading.gif" style="height: 100px; width: 100px" />
     </div>
-  </el-table-column>
-</el-table>
+    <el-table-column label="Author" max-width="100px">
+      <template v-slot="{ row }">
+        <img
+          v-if="row.profile_image"
+          :src="row.profile_image"
+          class="avatar rounded-circle mr-3"
+        />
+      </template>
+    </el-table-column>
+
+    <el-table-column
+      label="Name"
+      min-width="110px"
+      prop="name"
+      sortable="custom"
+    />
+
+    <el-table-column
+      label="Email"
+      min-width="120px"
+      prop="email"
+      sortable="custom"
+    />
+
+    <el-table-column
+      label="Role"
+      min-width="120px"
+      prop="roles.name"
+      sortable="custom"
+    >
+      <template v-slot="{ row }">
+        <span>{{ row.roles[0].name }}</span>
+      </template>
+    </el-table-column>
+
+    <el-table-column
+      label="Created At"
+      prop="created_at"
+      min-width="150px"
+      sortable="custom"
+    />
+
+    <el-table-column :min-width="135" fixed="right" label="Actions">
+      <div
+        slot-scope="{ row }"
+        class="table-actions"
+        style="margin-left: 10px"
+      >
+        <el-tooltip content="Edit" :open-delay="300" placement="top">
+          <n-button
+            @click.native="editUser(row.id)"
+            type="info"
+            size="sm"
+            round
+            icon
+          >
+            <i class="now-ui-icons ui-2_settings-90"></i>
+          </n-button>
+        </el-tooltip>
+
+        <el-tooltip content="Delete" :open-delay="300" placement="top">
+          <n-button
+            @click.native="deleteUser(row.id)"
+            class="remove"
+            type="danger"
+            size="sm"
+            round
+            icon
+          >
+            <i class="fa fa-times"></i>
+          </n-button>
+        </el-tooltip>
+      </div>
+    </el-table-column>
+  </el-table>
+</div>
 ```
 
 ### Tag management
@@ -701,7 +666,7 @@ You can add and edit tags here, but you can only delete them if they are not att
 
 The store used for role functionality is found in `src\store\modules\tags-module.vue`
 
-You can find the compoments for role functionality in `src\views\TagManagement` folder.
+You can find the compoments for role functionality in `src\pages\Dashboard\Examples\TagManagement` folder.
 
 ```
 <div>
@@ -709,12 +674,14 @@ You can find the compoments for role functionality in `src\views\TagManagement` 
     class="col-12 d-flex justify-content-center justify-content-sm-between flex-wrap"
   >
     <el-select
-      class="select-primary pagination-select"
+      class="select-primary mb-3"
+      style="width: 200px"
+      name="pages"
       v-model="pagination.perPage"
       placeholder="Per page"
     >
       <el-option
-        class="select-primary"
+        class="select-default"
         v-for="item in pagination.perPageOptions"
         :key="item"
         :label="item"
@@ -722,30 +689,43 @@ You can find the compoments for role functionality in `src\views\TagManagement` 
       >
       </el-option>
     </el-select>
-
-    <div>
-      <form>
-        <base-input
-          v-model="query"
-          type="search"
-          prepend-icon="fas fa-search"
-          placeholder="Search..."
-          clearable
-        />
-      </form>
-    </div>
+    <fg-input>
+      <el-input
+        v-model="query"
+        type="search"
+        class="mb-3"
+        clearable
+        prefix-icon="el-icon-search"
+        style="width: 200px"
+        placeholder="Search..."
+        aria-controls="datatables"
+      >
+      </el-input>
+    </fg-input>
   </div>
   <el-table
-    class="table-responsive align-items-center table-flush"
-    header-row-class-name="thead-light"
-    :data="tags"
+    stripe
+    style="width: 100%"
+    :data="tableData"
     @sort-change="sortChange"
   >
     <div slot="empty" v-if="loading">
       <img src="/img/loading.gif" style="height: 100px; width: 100px" />
     </div>
-    <el-table-column label="Name" prop="name" sortable="custom" />
-    <el-table-column label="Color" prop="color" sortable="custom">
+
+    <el-table-column
+      label="Name"
+      min-width="110px"
+      prop="name"
+      sortable="custom"
+    />
+
+    <el-table-column
+      label="Color"
+      min-width="130px"
+      prop="color"
+      sortable="custom"
+    >
       <template slot-scope="{ row }">
         <span
           class="badge badge-default"
@@ -754,35 +734,43 @@ You can find the compoments for role functionality in `src\views\TagManagement` 
         >
       </template>
     </el-table-column>
+
     <el-table-column
       label="Created At"
       prop="created_at"
+      min-width="150px"
       sortable="custom"
     />
-    <el-table-column align="center">
-      <div slot-scope="{ row }" class="table-actions">
-        <el-tooltip content="Edit" placement="top">
-          <a
-            type="text"
-            @click="editTag(row)"
-            class="table-action"
-            data-toggle="tooltip"
-            style="cursor: pointer"
+
+    <el-table-column :min-width="135" fixed="right" label="Actions">
+      <div
+        slot-scope="{ row }"
+        class="table-actions"
+        style="margin-left: 10px"
+      >
+        <el-tooltip content="Edit" :open-delay="300" placement="top">
+          <n-button
+            @click.native="editTag(row.id)"
+            type="info"
+            size="sm"
+            round
+            icon
           >
-            <i class="fas fa-user-edit"></i>
-          </a>
+            <i class="now-ui-icons ui-2_settings-90"></i>
+          </n-button>
         </el-tooltip>
 
-        <el-tooltip content="Delete" placement="top">
-          <a
-            type="text"
-            @click="deleteTag(row.id)"
-            class="table-action table-action-delete"
-            data-toggle="tooltip"
-            style="cursor: pointer"
+        <el-tooltip content="Delete" :open-delay="300" placement="top">
+          <n-button
+            @click.native="deleteTag(row.id)"
+            class="remove"
+            type="danger"
+            size="sm"
+            round
+            icon
           >
-            <i class="fas fa-trash"></i>
-          </a>
+            <i class="fa fa-times"></i>
+          </n-button>
         </el-tooltip>
       </div>
     </el-table-column>
@@ -797,7 +785,7 @@ You can add and edit categories here, but you can only delete them if they are n
 
 The store used for category functionality is found in `src\store\modules\categories-module.vue`
 
-You can find the compoments for category functionality in `src\views\Examples\CategoryManagement` folder.
+You can find the compoments for category functionality in `src\pages\Dashboard\Examples\CategoryManagement` folder.
 
 ```
 <div>
@@ -805,12 +793,14 @@ You can find the compoments for category functionality in `src\views\Examples\Ca
     class="col-12 d-flex justify-content-center justify-content-sm-between flex-wrap"
   >
     <el-select
-      class="select-primary pagination-select"
+      class="select-primary mb-3"
+      style="width: 200px"
+      name="pages"
       v-model="pagination.perPage"
       placeholder="Per page"
     >
       <el-option
-        class="select-primary"
+        class="select-default"
         v-for="item in pagination.perPageOptions"
         :key="item"
         :label="item"
@@ -818,50 +808,80 @@ You can find the compoments for category functionality in `src\views\Examples\Ca
       >
       </el-option>
     </el-select>
-
-    <div>
-      <form>
-        <base-input
-          v-model="query"
-          type="search"
-          prepend-icon="fas fa-search"
-          placeholder="Search..."
-          clearable
-        />
-      </form>
-    </div>
+    <fg-input>
+      <el-input
+        v-model="query"
+        type="search"
+        class="mb-3"
+        clearable
+        prefix-icon="el-icon-search"
+        style="width: 200px"
+        placeholder="Search..."
+        aria-controls="datatables"
+      >
+      </el-input>
+    </fg-input>
   </div>
   <el-table
-    class="table-responsive align-items-center table-flush"
-    header-row-class-name="thead-light"
-    :data="categories"
+    stripe
+    style="width: 100%"
+    :data="tableData"
     @sort-change="sortChange"
   >
-    <el-table-column label="Name" prop="name" sortable />
-    <el-table-column label="Description" prop="description" sortable />
-    <el-table-column label="Created At" prop="created_at" sortable />
-    <el-table-column align="center">
-      <div slot-scope="{ row }" class="table-actions">
-        <el-tooltip content="Edit" placement="top">
-          <a
-            type="text"
-            @click="editCategory(row)"
-            class="table-action"
-            data-toggle="tooltip"
+    <div slot="empty" v-if="loading">
+      <img src="/img/loading.gif" style="height: 100px; width: 100px" />
+    </div>
+
+    <el-table-column
+      label="Name"
+      min-width="110px"
+      prop="name"
+      sortable="custom"
+    />
+
+    <el-table-column
+      label="Description"
+      min-width="130px"
+      prop="description"
+      sortable="custom"
+    />
+
+    <el-table-column
+      label="Created At"
+      prop="created_at"
+      min-width="150px"
+      sortable="custom"
+    />
+
+    <el-table-column :min-width="135" fixed="right" label="Actions">
+      <div
+        slot-scope="{ row }"
+        class="table-actions"
+        style="margin-left: 10px"
+      >
+        <el-tooltip content="Edit" :open-delay="300" placement="top">
+          <n-button
+            @click.native="editCategory(row.id)"
+            type="info"
+            size="sm"
+            round
+            icon
           >
-            <i class="fas fa-user-edit"></i>
-          </a>
+            <i class="now-ui-icons ui-2_settings-90"></i>
+          </n-button>
         </el-tooltip>
 
-        <el-tooltip content="Delete" placement="top">
-          <a
-            type="text"
-            @click="deleteCategory(row.id)"
-            class="table-action table-action-delete"
-            data-toggle="tooltip"
+        <el-tooltip content="Delete" :open-delay="300" placement="top">
+          <n-button
+            @click.native="deleteCategory(row.id)"
+            class="remove"
+            type="danger"
+            size="sm"
+            round
+            icon
           >
-            <i class="fas fa-trash"></i>
-          </a>
+            <i class="fa fa-times"></i>
+          </n-button>
         </el-tooltip>
       </div>
     </el-table-column>
@@ -877,7 +897,7 @@ On the add page, besides the Name and Description fields (which are present in m
 
 The store used for roles functionality is found in `src\store\modules\items-module.vue`
 
-You can find the compoments for items functionality in `src\views\Examples\ItemManagement` folder.
+You can find the compoments for items functionality in `src\pages\Dashboard\Examples\ItemManagement` folder.
 
 #### List Items
 
@@ -887,12 +907,14 @@ You can find the compoments for items functionality in `src\views\Examples\ItemM
     class="col-12 d-flex justify-content-center justify-content-sm-between flex-wrap"
   >
     <el-select
-      class="select-primary pagination-select"
+      class="select-primary mb-3"
+      style="width: 200px"
+      name="pages"
       v-model="pagination.perPage"
       placeholder="Per page"
     >
       <el-option
-        class="select-primary"
+        class="select-default"
         v-for="item in pagination.perPageOptions"
         :key="item"
         :label="item"
@@ -900,31 +922,37 @@ You can find the compoments for items functionality in `src\views\Examples\ItemM
       >
       </el-option>
     </el-select>
-    <div>
-      <base-input
+    <fg-input>
+      <el-input
         v-model="query"
         type="search"
-        prepend-icon="fas fa-search"
-        placeholder="Search..."
+        class="mb-3"
         clearable
-      />
-    </div>
+        prefix-icon="el-icon-search"
+        style="width: 200px"
+        placeholder="Search..."
+        aria-controls="datatables"
+      >
+      </el-input>
+    </fg-input>
   </div>
   <el-table
-    class="table-responsive align-items-center table-flush"
-    header-row-class-name="thead-light"
-    :data="items"
+    stripe
+    style="width: 100%"
+    :data="tableData"
     @sort-change="sortChange"
   >
     <div slot="empty" v-if="loading">
       <img src="/img/loading.gif" style="height: 100px; width: 100px" />
     </div>
+
     <el-table-column
       label="Name"
-      min-width="240px"
+      min-width="130px"
       prop="name"
       sortable="custom"
     />
+
     <el-table-column
       label="Category"
       min-width="140px"
@@ -960,35 +988,43 @@ You can find the compoments for items functionality in `src\views\Examples\ItemM
         >
       </template>
     </el-table-column>
+
     <el-table-column
       label="Created At"
       prop="created_at"
-      min-width="190px"
+      min-width="160px"
       sortable="custom"
     />
-    <el-table-column min-width="120px" align="center">
-      <div slot-scope="{ row }" class="table-actions">
-        <el-tooltip content="Edit" placement="top">
-          <a
-            type="text"
-            @click="editItem(row)"
-            class="table-action"
-            data-toggle="tooltip"
-            style="cursor: pointer"
+
+    <el-table-column :min-width="135" fixed="right" label="Actions">
+      <div
+        slot-scope="{ row }"
+        class="table-actions"
+        style="margin-left: 10px"
+      >
+        <el-tooltip content="Edit" :open-delay="300" placement="top">
+          <n-button
+            @click.native="editItem(row.id)"
+            type="info"
+            size="sm"
+            round
+            icon
           >
-            <i class="fas fa-user-edit"></i>
-          </a>
+            <i class="now-ui-icons ui-2_settings-90"></i>
+          </n-button>
         </el-tooltip>
-        <el-tooltip content="Delete" placement="top">
-          <a
-            type="text"
-            @click="deleteItem(row.id)"
-            class="table-action table-action-delete"
-            data-toggle="tooltip"
-            style="cursor: pointer"
+
+        <el-tooltip content="Delete" :open-delay="300" placement="top">
+          <n-button
+            @click.native="deleteItem(row.id)"
+            class="remove"
+            type="danger"
+            size="sm"
+            round
+            icon
           >
-            <i class="fas fa-trash"></i>
-          </a>
+            <i class="fa fa-times"></i>
+          </n-button>
         </el-tooltip>
       </div>
     </el-table-column>
@@ -999,147 +1035,145 @@ You can find the compoments for items functionality in `src\views\Examples\ItemM
 #### Add/Edit Item
 
 ```
-<card>
-  <div slot="header" class="row align-items-center">
-    <div class="col-8">
-      <h3 class="mb-0">Edit Item</h3>
+<div class="card-body">
+  <form ref="profile_form" @submit.prevent="handleSubmit">
+    <div class="form-group">
+      <label class="form-control-label"> Picture </label>
+      <div v-if="image" class="profile-image card-img pb-4">
+        <img :src="`${image}`" class="profile-image now-ui-image" />
+      </div>
+      <div v-else class="profile-image">
+        <img src="/img/placeholder.jpg" class="now-ui-image" />
+      </div>
+      <div class="image-upload">
+        <n-button
+          v-if="image"
+          type="button"
+          class="btn btn-sm btn-danger"
+          @click.native="removeImage"
+        >
+          <i slot="label" class="now-ui-icons ui-1_simple-remove"></i>
+          Remove
+        </n-button>
+
+        <n-button type="button" class="btn btn-sm btn-primary">
+          <label
+            v-if="!image"
+            class="mb-0"
+            style="color: white"
+            >Select image</label
+          >
+          <label
+            v-else
+            class="mb-0"
+            style="color: white"
+            >Change</label
+          >
+          <input
+            id="imageInput"
+            ref="imageInput"
+            accept="image/*"
+            type="file"
+            style="display: none"
+            @input="onSelectFile"
+          />
+        </n-button>
+      </div>
     </div>
-    <div class="col-4 text-right">
-      <base-button
-        @click="goBack"
+    <validation-error :error="apiValidationErrors.attachment" />
+
+    <label>Name</label>
+    <fg-input
+      v-model="item.name"
+      name="name"
+      addon-left-icon="now-ui-icons users_circle-08"
+      :error="apiValidationErrors.name"
+    />
+
+    <div class="md-layout spacing">
+      <label class="md-layout-item md-size-25 md-form-label">
+        Description
+      </label>
+      <div class="md-layout-item">
+        <ckeditor
+          :editor="editor"
+          v-model="item.description"
+          :config="editorConfig"
+        />
+      </div>
+    </div>
+    <validation-error :error="apiValidationErrors.excerpt" />
+
+    <label style="display: flex">Category</label>
+    <el-select
+      name="category"
+      v-model="item.category.id"
+      prepend-icon="fas fa-user"
+      placeholder="Select..."
+      style="display: flex"
+    >
+      <el-option
+        v-for="single_category in all_categories"
+        :key="single_category.id"
+        :value="single_category.id"
+        :label="single_category.name"
+      >
+      </el-option>
+    </el-select>
+
+    <label>Tags</label>
+    <el-select
+      v-model="tags"
+      multiple
+      placeholder="Select..."
+      style="display: flex"
+    >
+      <el-option
+        v-for="single_tag in all_tags"
+        :key="single_tag.id"
+        :value="single_tag.id"
+        :label="single_tag.name"
+      >
+      </el-option>
+    </el-select>
+
+    <fg-input label="Status" class="mt-2">
+      <radio label="published" v-model="item.status" class="mb-3">
+        Published
+      </radio>
+      <radio label="draft" v-model="item.status" class="mb-3">
+        Draft
+      </radio>
+      <radio label="archive" v-model="item.status" class="mb-3">
+        Archive
+      </radio>
+    </fg-input>
+
+    <label style="display: flex">Show on homepage?</label>
+    <n-switch class="mt-2" v-model="item.is_on_homepage"></n-switch>
+
+    <fg-input label="Date" class="mt-2">
+      <el-date-picker
+        type="date"
+        placeholder="Date Picker"
+        v-model="item.date_at"
+      >
+      </el-date-picker
+    ></fg-input>
+
+    <validation-error :error="apiValidationErrors.date_at" />
+
+    <div class="my-4">
+      <n-button
         type="button"
         class="btn btn-sm btn-primary"
-        >Back to list</base-button
+        native-type="submit"
       >
+        Update Item
+      </n-button>
     </div>
-  </div>
-  <div class="card-body">
-    <form ref="profile_form" @submit.prevent="handleSubmit">
-      <div class="form-group">
-        <label class="form-control-label"> Picture </label>
-        <div v-if="file" class="profile-image card-img pb-4">
-          <img
-            :src="`${item.image}`"
-            class="profile-image argon-image"
-          />
-        </div>
-        <div v-else class="profile-image">
-          <img src="/img/placeholder.jpg" class="argon-image" />
-        </div>
-        <div class="image-upload">
-          <base-button
-            v-if="file"
-            type="button"
-            class="btn btn-sm btn-danger"
-            @click="removeImage"
-          >
-            <span>
-              <i class="fa fa-times" />
-              Remove
-            </span>
-          </base-button>
-          <base-button type="button" class="btn btn-sm btn-primary">
-            <label v-if="!file" for="imageInput" class="mb-0"
-              >Select image</label
-            >
-            <label v-else for="imageInput" class="mb-0">Change</label>
-            <input
-              id="imageInput"
-              ref="imageInput"
-              accept="image/*"
-              type="file"
-              style="display: none"
-              @change="onSelectFile"
-            />
-          </base-button>
-        </div>
-      </div>
-      <validation-error :errors="apiValidationErrors.attachment" />
-
-      <base-input
-        label="Name"
-        prepend-icon="fas fa-user"
-        v-model="item.name"
-      />
-      <validation-error :errors="apiValidationErrors.name" />
-
-      <base-input label="Description">
-        <html-editor v-model="item.description" name="editor" />
-      </base-input>
-      <validation-error :errors="apiValidationErrors.description" />
-
-      <base-input label="Category">
-        <el-select
-          name="category"
-          v-model="item.category.id"
-          prepend-icon="fas fa-user"
-        >
-          <el-option
-            v-for="single_category in all_categories"
-            :key="single_category.id"
-            :value="single_category.id"
-            :label="single_category.name"
-          >
-          </el-option>
-        </el-select>
-      </base-input>
-
-      <base-input label="Tags">
-        <el-select v-model="tags" multiple placeholder="Select...">
-          <el-option
-            v-for="single_tag in all_tags"
-            :key="single_tag.id"
-            :value="single_tag.id"
-            :label="single_tag.name"
-          >
-          </el-option>
-        </el-select>
-      </base-input>
-
-      <base-input label="Status">
-        <base-radio v-model="item.status" name="published" class="mb-3">
-          Published
-        </base-radio>
-        <base-radio v-model="item.status" name="draft" class="mb-3">
-          Draft
-        </base-radio>
-        <base-radio v-model="item.status" name="archive" class="mb-3">
-          Archive
-        </base-radio>
-      </base-input>
-
-      <base-input label="Show on homepage?">
-        <base-switch
-          class="mr-1"
-          v-model="item.is_on_homepage"
-        ></base-switch>
-      </base-input>
-
-      <base-input label="Date">
-        <flat-picker
-          slot-scope="{ focus, blur }"
-          @on-open="focus"
-          @on-close="blur"
-          :config="{ allowInput: true }"
-          class="form-control datepicker"
-          v-model="item.date_at"
-        >
-        </flat-picker>
-      </base-input>
-      <validation-error :errors="apiValidationErrors.date_at" />
-
-      <div class="my-4">
-        <base-button
-          type="button"
-          class="btn btn-sm btn-primary"
-          native-type="submit"
-        >
-          Update Item
-        </base-button>
-      </div>
-    </form>
-  </div>
-</card>
+  </form>
+</div>
 ```
 
 ## Table of Contents
@@ -1163,69 +1197,110 @@ You can find the compoments for items functionality in `src\views\Examples\ItemM
 
 | HTML                                                                                                                                                                                           | Laravel                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Argon Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/137/thumb/opt_adp_thumbnail.jpg)](https://www.creative-tim.com/product/argon-dashboard-pro?ref=vadpl-readme) | [![Argon Dashboard Pro Laravel](https://s3.amazonaws.com/creativetim_bucket/products/146/thumb/opt_adp_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/argon-dashboard-pro-laravel?ref=vadpl-readme) |
+| [![Now UI Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/72/thumb/opt_nudp_thumbnail.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro?ref=vnudpl-readme) | [![Now UI Dashboard Pro Laravel](https://s3.amazonaws.com/creativetim_bucket/products/210/thumb/opt_nudp_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro-laravel?ref=vnudpl-readme) |
 
 | Vue                                                                                                                                                                                                        | Vue & Laravel                                                                                                                                                                                                                  |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [![Vue Argon Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/159/thumb/opt_adp_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-pro?ref=vadpl-readme) | [![Vue Argon Dashboard Pro Laravel ](https://s3.amazonaws.com/creativetim_bucket/products/353/thumb/opt_adp_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-pro-laravel?ref=vadpl-readme) |
+| [![Vue Now UI Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/79/thumb/opt_nudp_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro?ref=vnudpl-readme) | [![Vue Now UI Dashboard Pro Laravel ](https://s3.amazonaws.com/creativetim_bucket/products/353/thumb/opt_adp_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro-laravel?ref=vnudpl-readme) |
 
 ## Demo
 
 | Register                                                                                                                                                                                                                   | Login                                                                                                                                                                                                             | Dashboard                                                                                                                                                                                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Register](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-pro/register.png)](https://vue-argon-dashboard-pro-laravel.creative-tim.com/register?ref=vadpl-readme) | [![Login](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-pro/login.png)](https://vue-argon-dashboard-pro-laravel.creative-tim.com/login?ref=vadpl-readme) | [![Dashboard](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-pro/dashboard.png)](https://vue-argon-dashboard-pro-laravel.creative-tim.com/?ref=vadpl-readme) |
+| [![Register](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-laravel-pro/register.png)](https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/register?ref=vnudpl-readme) | [![Login](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-laravel-pro/login.png)](https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/login?ref=vnudpl-readme) | [![Dashboard](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-laravel-pro/dashboard.png)](https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/?ref=vnudpl-readme) |
 
 | Profile Page                                                                                                                                                                                                                               | Users Page                                                                                                                                                                                                                                           | Tables Page                                                                                                                                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Profile Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-pro/profile.png)](https://vue-argon-dashboard-pro-laravel.creative-tim.com/examples/user-profile?ref=vadpl-readme) | [![Users Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-pro/users.png)](https://vue-argon-dashboard-pro-laravel.creative-tim.com/examples/user-management/list-users?ref=vadpl-readme) | [![Tables Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard-laravel-pro/table.png)](https://vue-argon-dashboard-pro-laravel.creative-tim.com/tables/paginated?ref=vadpl-readme) |
+| [![Profile Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-laravel-pro/profile.png)](https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/examples/user-profile?ref=vnudpl-readme) | [![Users Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-laravel-pro/users.png)](https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/examples/user-management/list-users?ref=vnudpl-readme) | [![Tables Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-laravel-pro/table.png)](https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/table-list/paginated?ref=vnudpl-readme) |
 
-[View More](https://vue-argon-dashboard-pro-laravel.creative-tim.com/?ref=vadpl-readme)
+[View More](https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/?ref=vnudpl-readme)
 
 ## Documentation
 
-The documentation for the Vue Argon Dashboard PRO Laravel is hosted at our [website](https://demos.creative-tim.com/vue-argon-dashboard-pro-laravel/documentation?ref=vadpl-github-readme).
+The documentation for the Vue Now UI Dashboard PRO Laravel is hosted at our [website](https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/documentation/#/getting-started?ref=vnudpl-github-readme).
 
 ## File Structure
 
 Within the download you'll find the following directories and files:
 
 ```
-├───vue-argon-dashboard-pro
+├───vue-now-ui-dashboard-pro
 │   App.vue
+│   dashboard-plugin.js
+│   globalComponents.js
+│   globalDirectives.js
 │   main.js
 │   polyfills.js
+│   registerServiceWorker.js
 │
 ├───assets
 │   ├───css
-│   │   │   style.css
-│   │   │
-│   │   └───nucleo
+│   │       demo.css
+│   │
+│   ├───fonts
+│   │       nucleo-outline.eot
+│   │       nucleo-outline.ttf
+│   │       nucleo-outline.woff
+│   │       nucleo-outline.woff2
+│   │
 │   └───sass
-│       │   argon.scss
+│       │   now-ui-dashboard.scss
 │       │
-│       ├───core
-│       └───custom
+│       └───now-ui-dashboard
+│           │   _alerts.scss
+│           │   _badges.scss
+│           │   _buttons.scss
+│           │   _cards.scss
+│           │   _carousel.scss
+│           │   _checkboxes-radio.scss
+│           │   _dropdown.scss
+│           │   _example-pages.scss
+│           │   _fixed-plugin.scss
+│           │   _footers.scss
+│           │   _images.scss
+│           │   _info-areas.scss
+│           │   _inputs.scss
+│           │   _misc.scss
+│           │   _mixins.scss
+│           │   _modals.scss
+│           │   _navbar.scss
+│           │   _nucleo-outline.scss
+│           │   _page-header.scss
+│           │   _pagination.scss
+│           │   _pills.scss
+│           │   _popups.scss
+│           │   _progress.scss
+│           │   _responsive.scss
+│           │   _sections.scss
+│           │   _sidebar-and-main-panel.scss
+│           │   _social-buttons.scss
+│           │   _tables.scss
+│           │   _tabs.scss
+│           │   _timeline.scss
+│           │   _typography.scss
+│           │   _variables.scss
+│           │
+│           ├───cards
+│           ├───element-ui-plugins
+│           ├───mixins
+│           └───plugins
 ├───axios
 │       index.js
 │
 ├───components
+│   │   AnimatedNumber.vue
 │   │   Badge.vue
-│   │   BaseAlert.vue
-│   │   BaseButton.vue
-│   │   BaseDropdown.vue
-│   │   BaseHeader.vue
-│   │   BasePagination.vue
-│   │   BaseProgress.vue
-│   │   BaseSlider.vue
-│   │   BaseSwitch.vue
-│   │   BaseTable.vue
-│   │   ButtonCheckbox.vue
-│   │   ButtonRadioGroup.vue
-│   │   CloseButton.vue
+│   │   Button.vue
+│   │   Dropdown.vue
 │   │   index.js
+│   │   isDemo.js
 │   │   LoadingPanel.vue
 │   │   Modal.vue
-│   │   NavbarToggleButton.vue
+│   │   Pagination.vue
+│   │   Progress.vue
+│   │   Slider.vue
+│   │   Switch.vue
+│   │   Table.vue
 │   │   ValidationError.vue
 │   │
 │   ├───Breadcrumb
@@ -1239,33 +1314,21 @@ Within the download you'll find the following directories and files:
 │   │
 │   ├───Charts
 │   │       BarChart.js
-│   │       config.js
-│   │       DoughnutChart.js
-│   │       globalOptionsMixin.js
 │   │       LineChart.js
-│   │       optionHelpers.js
-│   │       PieChart.js
-│   │       roundedCornersExtension.js
+│   │       utils.js
 │   │
 │   ├───Collapse
 │   │       Collapse.vue
 │   │       CollapseItem.vue
 │   │
-│   ├───Feed
-│   │       Comment.vue
-│   │
 │   ├───Inputs
-│   │       BaseCheckbox.vue
-│   │       BaseInput.vue
-│   │       BaseRadio.vue
-│   │       DropzoneFileUpload.vue
-│   │       FileInput.vue
-│   │       HtmlEditor.vue
+│   │       Checkbox.vue
+│   │       formGroupInput.vue
 │   │       IconCheckbox.vue
-│   │       TagsInput.vue
+│   │       Radio.vue
 │   │
 │   ├───Navbar
-│   │       BaseNav.vue
+│   │       Navbar.vue
 │   │       NavbarToggleButton.vue
 │   │
 │   ├───NotificationPlugin
@@ -1286,36 +1349,166 @@ Within the download you'll find the following directories and files:
 │   │       TimeLine.vue
 │   │       TimeLineItem.vue
 │   │
+│   ├───Wizard
+│   │       throttle.js
+│   │       Wizard.vue
+│   │       WizardTab.vue
+│   │
 │   └───WorldMap
 │           AsyncWorldMap.vue
 │           WorldMap.vue
+│           world_map.js
 │
 ├───directives
 │       click-ouside.js
 │
 ├───middleware
-│       admin.js
-│       admin_creator.js
 │       auth.js
 │       guest.js
 │
 ├───mixins
 │       form-mixin.js
 │
-├───plugins
-│       dashboard-plugin.js
-│       globalComponents.js
-│       globalDirectives.js
+├───pages
+│   ├───Dashboard
+│   │   │   Charts.vue
+│   │   │   DefaultHeader.vue
+│   │   │   Widgets.vue
+│   │   │
+│   │   ├───Calendar
+│   │   │       Calendar.vue
+│   │   │       CalendarHeader.vue
+│   │   │       CalendarRoute.vue
+│   │   │
+│   │   ├───Components
+│   │   │   │   Buttons.vue
+│   │   │   │   GridSystem.vue
+│   │   │   │   Icons.vue
+│   │   │   │   Notifications.vue
+│   │   │   │   Panels.vue
+│   │   │   │   SweetAlert.vue
+│   │   │   │   Typography.vue
+│   │   │   │
+│   │   │   └───Headers
+│   │   │           SweetAlertHeader.vue
+│   │   │
+│   │   ├───Dashboard
+│   │   │   │   Dashboard.vue
+│   │   │   │   DashboardHeader.vue
+│   │   │   │   HeaderChart.js
+│   │   │   │
+│   │   │   └───Stats
+│   │   │           Task.vue
+│   │   │           TaskList.vue
+│   │   │
+│   │   ├───Examples
+│   │   │   │   UserProfile.vue
+│   │   │   │
+│   │   │   ├───CategoryManagement
+│   │   │   │       AddCategoryPage.vue
+│   │   │   │       EditCategoryPage.vue
+│   │   │   │       ListCategoryPage.vue
+│   │   │   │
+│   │   │   ├───ItemManagement
+│   │   │   │       AddItemPage.vue
+│   │   │   │       EditItemPage.vue
+│   │   │   │       ListItemPage.vue
+│   │   │   │
+│   │   │   ├───RoleManagement
+│   │   │   │       AddRolePage.vue
+│   │   │   │       EditRolePage.vue
+│   │   │   │       ListRolePage.vue
+│   │   │   │
+│   │   │   ├───TagManagement
+│   │   │   │       AddTagPage.vue
+│   │   │   │       EditTagPage.vue
+│   │   │   │       ListTagPage.vue
+│   │   │   │
+│   │   │   ├───UserManagement
+│   │   │   │       AddUserPage.vue
+│   │   │   │       EditUserPage.vue
+│   │   │   │       ListUserPage.vue
+│   │   │   │
+│   │   │   └───UserProfile
+│   │   │           EditPasswordCard.vue
+│   │   │           EditProfileCard.vue
+│   │   │
+│   │   ├───Forms
+│   │   │   │   ExtendedForms.vue
+│   │   │   │   RegularForms.vue
+│   │   │   │   ValidationForms.vue
+│   │   │   │   Wizard.vue
+│   │   │   │
+│   │   │   ├───ValidationForms
+│   │   │   │       LoginForm.vue
+│   │   │   │       RangeValidationForm.vue
+│   │   │   │       RegisterForm.vue
+│   │   │   │       TypeValidationForm.vue
+│   │   │   │
+│   │   │   └───Wizard
+│   │   │           FirstStep.vue
+│   │   │           SecondStep.vue
+│   │   │           ThirdStep.vue
+│   │   │
+│   │   ├───Layout
+│   │   │   │   Content.vue
+│   │   │   │   ContentFooter.vue
+│   │   │   │   DashboardLayout.vue
+│   │   │   │   LoadingMainPanel.vue
+│   │   │   │   TopNavbar.vue
+│   │   │   │
+│   │   │   └───Extra
+│   │   │           MobileMenu.vue
+│   │   │           SidebarSharePlugin.vue
+│   │   │           UserMenu.vue
+│   │   │
+│   │   ├───Maps
+│   │   │       API_KEY.js
+│   │   │       FullScreenMap.vue
+│   │   │       GoogleMaps.vue
+│   │   │       VectorMaps.vue
+│   │   │       VectorMapsHeader.vue
+│   │   │       WorldMap.vue
+│   │   │       world_map.js
+│   │   │
+│   │   ├───Pages
+│   │   │   │   AuthLayout.vue
+│   │   │   │   Lock.vue
+│   │   │   │   Login.vue
+│   │   │   │   Pricing.vue
+│   │   │   │   Register.vue
+│   │   │   │   TimeLinePage.vue
+│   │   │   │   UserProfile.vue
+│   │   │   │
+│   │   │   └───UserProfile
+│   │   │           EditProfileForm.vue
+│   │   │           UserCard.vue
+│   │   │
+│   │   ├───Password
+│   │   │       Email.vue
+│   │   │       Reset.vue
+│   │   │
+│   │   └───Tables
+│   │       │   ExtendedTables.vue
+│   │       │   PaginatedTables.vue
+│   │       │   RegularTables.vue
+│   │       │   users.js
+│   │       │
+│   │       └───ExtendedTables
+│   │               ShoppingTable.vue
+│   │
+│   └───GeneralViews
+│           NotFoundPage.vue
 │
-├───router
+├───routes
 │       index.js
 │       routes.js
-│       starterRouter.js
 │
 ├───store
 │   │   index.js
 │   │
 │   ├───modules
+│   │       alerts-module.js
 │   │       auth.js
 │   │       categories-module.js
 │   │       items-module.js
@@ -1333,146 +1526,8 @@ Within the download you'll find the following directories and files:
 │           tags-service.js
 │           users-service.js
 │
-├───util
-│       throttle.js
-│
-└───views
-    │   Charts.vue
-    │   Widgets.vue
-    │
-    ├───Calendar
-    │       Calendar.vue
-    │
-    ├───Components
-    │       Buttons.vue
-    │       Cards.vue
-    │       GridSystem.vue
-    │       Icons.vue
-    │       Notifications.vue
-    │       Typography.vue
-    │
-    ├───Dashboard
-    │       ActivityFeed.vue
-    │       AlternativeDashboard.vue
-    │       Dashboard.vue
-    │       LightTable.vue
-    │       PageVisitsTable.vue
-    │       ProgressTrackList.vue
-    │       SocialTrafficTable.vue
-    │       TaskList.vue
-    │       UserList.vue
-    │
-    ├───Examples
-    │   │   UserProfile.vue
-    │   │
-    │   ├───CategoryManagement
-    │   │       AddCategoryPage.vue
-    │   │       EditCategoryPage.vue
-    │   │       ListCategoryPage.vue
-    │   │
-    │   ├───ItemManagement
-    │   │       AddItemPage.vue
-    │   │       EditItemPage.vue
-    │   │       ListItemPage.vue
-    │   │
-    │   ├───RoleManagement
-    │   │       AddRolePage.vue
-    │   │       EditRolePage.vue
-    │   │       ListRolePage.vue
-    │   │
-    │   ├───TagManagement
-    │   │       AddTagPage.vue
-    │   │       EditTagPage.vue
-    │   │       ListTagPage.vue
-    │   │
-    │   ├───UserManagement
-    │   │       AddUserPage.vue
-    │   │       EditUserPage.vue
-    │   │       ListUserPage.vue
-    │   │
-    │   └───UserProfile
-    │           UserEditCard.vue
-    │           UserPasswordCard.vue
-    │
-    ├───Forms
-    │   │   FormComponents.vue
-    │   │   FormElements.vue
-    │   │   FormValidation.vue
-    │   │
-    │   └───FormValidation
-    │           BrowserDefaultsValidation.vue
-    │           CustomStylesValidation.vue
-    │           ServerSideValidation.vue
-    │
-    ├───GeneralViews
-    │       NotFoundPage.vue
-    │
-    ├───Layout
-    │       Content.vue
-    │       ContentFooter.vue
-    │       DashboardLayout.vue
-    │       DashboardNavbar.vue
-    │
-    ├───Maps
-    │       API_KEY.js
-    │       GoogleMaps.vue
-    │       VectorMaps.vue
-    │
-    ├───Pages
-    │   │   AuthLayout.vue
-    │   │   Home.vue
-    │   │   Lock.vue
-    │   │   Login.vue
-    │   │   Pricing.vue
-    │   │   Register.vue
-    │   │   TimeLinePage.vue
-    │   │   UserProfile.vue
-    │   │
-    │   └───UserProfile
-    │           EditProfileForm.vue
-    │           UserCard.vue
-    │
-    ├───Password
-    │       Email.vue
-    │       Reset.vue
-    │
-    ├───Starter
-    │       SampleFooter.vue
-    │       SampleLayout.vue
-    │       SampleNavbar.vue
-    │       SamplePage.vue
-    │
-    ├───Tables
-    │   │   PaginatedTables.vue
-    │   │   projects.js
-    │   │   RegularTables.vue
-    │   │   SortableTables.vue
-    │   │   users.js
-    │   │   users2.js
-    │   │
-    │   ├───PaginatedTables
-    │   │       clientPaginationMixin.js
-    │   │
-    │   └───RegularTables
-    │           CheckboxColoredTable.vue
-    │           CheckboxTable.vue
-    │           DarkTable.vue
-    │           InlineActionsTable.vue
-    │           LightTable.vue
-    │           StripedTable.vue
-    │           TranslucentTable.vue
-    │
-    └───Widgets
-            CalendarWidget.vue
-            CreditCard.vue
-            MembersCard.vue
-            PaypalCard.vue
-            ProgressTrackList.vue
-            StatsCards.vue
-            TaskList.vue
-            TimelineCard.vue
-            VectorMapCard.vue
-            VisaCard.vue
+└───util
+        throttle.js
 ```
 
 ## Browser Support
@@ -1483,21 +1538,23 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Resources
 
-- Demo: <https://vue-argon-dashboard-pro-laravel.creative-tim.com/?ref=vadpl-readme>
-- Download Page: <https://www.creative-tim.com/product/vue-argon-dashboard-pro-laravel?ref=vadpl-readme>
-- Documentation: <https://vue-argon-dashboard-pro-laravel.creative-tim.com/documentation?ref=vadpl-readme>
+- Demo: <https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/?ref=vnudpl-readme>
+- Download Page: <https://www.creative-tim.com/product/vue-now-ui-dashboard-pro-laravel?ref=vnudpl-readme>
+- Documentation: <https://vue-now-ui-dashboard-pro-laravel.creative-tim.com/documentation/#/getting-started?ref=vnudpl-readme>
 - License Agreement: <https://www.creative-tim.com/license>
 - Support: <https://www.creative-tim.com/contact-us>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-vue-argon-dashboard-pro-laravel/issues)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-vue-now-ui-dashboard-pro-laravel/issues)
 - **Dashboards:**
 
 | HTML                                                                                                                                                                                           | Laravel                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Argon Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/137/thumb/opt_adp_thumbnail.jpg)](https://www.creative-tim.com/product/argon-dashboard-pro?ref=vadpl-readme) | [![Argon Dashboard Pro Laravel](https://s3.amazonaws.com/creativetim_bucket/products/146/thumb/opt_adp_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/argon-dashboard-pro-laravel?ref=vadpl-readme) |
+| [![Now UI Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/72/thumb/opt_nudp_thumbnail.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro?ref=vnudpl-readme) | [![Now UI Dashboard Pro Laravel](https://s3.amazonaws.com/creativetim_bucket/products/210/thumb/opt_nudp_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/now-ui-dashboard-pro-laravel?ref=vnudpl-readme) |
+
 
 | Vue                                                                                                                                                                                                        | Vue & Laravel                                                                                                                                                                                                                 |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Vue Argon Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/159/thumb/opt_adp_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-pro?ref=vadpl-readme) | [![Vue Argon Dashboard Pro Laravel](https://s3.amazonaws.com/creativetim_bucket/products/353/thumb/opt_adp_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-argon-dashboard-pro-laravel?ref=vadpl-readme) |
+| [![Vue Now UI Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/79/thumb/opt_nudp_vue_thumbnail.jpg)](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro?ref=vnudpl-readme) | [![Vue Now UI Dashboard Pro Laravel ](https://s3.amazonaws.com/creativetim_bucket/products/353/thumb/opt_adp_vue_laravel_thumbnail.jpg)](https://www.creative-tim.com/product/vue-now-ui-dashboard-pro-laravel?ref=vnudpl-readme) |
+
 
 ## Change log
 
@@ -1505,59 +1562,59 @@ Please see the [changelog](CHANGELOG.md) for more information on what has change
 
 ## Credits
 
-- [Creative Tim](https://creative-tim.com/?ref=vadpl-readme)
+- [Creative Tim](https://creative-tim.com/?ref=vnudpl-readme)
 - [UPDIVISION](https://updivision.com)
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the Argon Kit. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Now UI Kit. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Argon Kit. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/?ref=vadpl-readme).
+1. Make sure that you are using the latest version of the Now UI Kit. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/?ref=vnudpl-readme).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
 ## Licensing
 
-- Copyright 2018 Creative Tim (https://www.creative-tim.com/?ref=vadpl-readme)
+- Copyright 2020 Creative Tim (https://www.creative-tim.com/license?ref=vnudpl-readme)
 
-- Licensed under MIT (https://github.com/creativetimofficial/vue-argon-dashboard/blob/master/LICENSE.md)
+- Licensed under MIT (https://github.com/creativetimofficial/vue-now-ui-dashboard/blob/master/LICENSE.md)
 
 ## Useful Links
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w?ref=vadpl-readme)
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=vadpl-readme) (earn money)
-- [Blog Creative Tim](http://blog.creative-tim.com/?ref=vadpl-readme)
-- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=vadpl-readme) from Creative Tim
-- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=vadpl-readme) from Creative Tim
-- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=vadpl-readme) from Creative Tim
-- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=vadpl-readme) from Creative Tim
-- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=vadpl-readme) from Creative Tim
-- [More products](https://www.creative-tim.com/bootstrap-themes?ref=vadpl-readme) from Creative Tim
-- Check our Bundles [here](https://www.creative-tim.com/bundles?ref=vadpl-readme)
+- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w?ref=vnudpl-readme)
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=vnudpl-readme) (earn money)
+- [Blog Creative Tim](http://blog.creative-tim.com/?ref=vnudpl-readme)
+- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=vnudpl-readme) from Creative Tim
+- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=vnudpl-readme) from Creative Tim
+- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=vnudpl-readme) from Creative Tim
+- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=vnudpl-readme) from Creative Tim
+- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=vnudpl-readme) from Creative Tim
+- [More products](https://www.creative-tim.com/bootstrap-themes?ref=vnudpl-readme) from Creative Tim
+- Check our Bundles [here](https://www.creative-tim.com/bundles?ref=vnudpl-readme)
 
 ## Social Media
 
 ### Creative Tim:
 
-Twitter: <https://twitter.com/CreativeTim?ref=vadpl-readme>
+Twitter: <https://twitter.com/CreativeTim?ref=vnudpl-readme>
 
-Facebook: <https://www.facebook.com/CreativeTim?ref=vadpl-readme>
+Facebook: <https://www.facebook.com/CreativeTim?ref=vnudpl-readme>
 
-Dribbble: <https://dribbble.com/creativetim?ref=vadpl-readme>
+Dribbble: <https://dribbble.com/creativetim?ref=vnudpl-readme>
 
-Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=vadpl-readme>
+Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=vnudpl-readme>
 
 ### Updivision:
 
-Twitter: <https://twitter.com/updivision?ref=vadpl-readme>
+Twitter: <https://twitter.com/updivision?ref=vnudpl-readme>
 
-Facebook: <https://www.facebook.com/updivision?ref=vadpl-readme>
+Facebook: <https://www.facebook.com/updivision?ref=vnudpl-readme>
 
-Linkedin: <https://www.linkedin.com/company/updivision?ref=vadpl-readme>
+Linkedin: <https://www.linkedin.com/company/updivision?ref=vnudpl-readme>
 
-Updivision Blog: <https://updivision.com/blog/?ref=vadpl-readme>
+Updivision Blog: <https://updivision.com/blog/?ref=vnudpl-readme>
 
 ## Credits
 
-- [Creative Tim](https://creative-tim.com/?ref=vadpl-readme)
+- [Creative Tim](https://creative-tim.com/?ref=vnudpl-readme)
 - [UPDIVISION](https://updivision.com)
