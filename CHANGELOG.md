@@ -1,11 +1,11 @@
 # Changelog
 
-All notable changes to `Vue Now Ui Dashboard PRO Laravel`  will be documented in this file.
+All notable changes to `Vue Now UI Dashboard PRO Laravel`  will be documented in this file.
 
 ## Version 1.0.0
 
 ### Added
-- Vue Now Ui Dashboard PRO
+- Vue Now UI Dashboard PRO
 - Login
 - Register
 - Profile edit
