@@ -1575,9 +1575,8 @@ We use GitHub Issues as the official bug tracker for the Now UI Kit. Here are so
 
 ## Licensing
 
-- Copyright 2020 Creative Tim (https://www.creative-tim.com/license?ref=vnudpl-readme)
-
-- Licensed under MIT (https://www.creative-tim.com/license)
+- Copyright Creative Tim (https://www.creative-tim.com/license?ref=vnudpl-readme)
+- Creative Tim License (https://www.creative-tim.com/license).
 
 ## Useful Links
 
