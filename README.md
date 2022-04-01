@@ -6,7 +6,7 @@ _Frontend version_: Now UI Dashboard v1.5.0. More info at https://www.creative-t
 
 _Vue version_: Vue Now UI Dashboard v1.2.0. More info at https://www.creative-tim.com/product/vue-now-ui-dashboard-pro
 
-![Product Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-now-ui-dashboard-laravel-pro/intro.gif)
+![Product Image](https://s3.amazonaws.com/creativetim_bucket/products/407/original/opt_nudp_vuelaravel_thumbnail.jpg)
 
 What if you could go from frontend to fullstack in an instant when building your app? We partnered with [UPDIVISION](https://updivision.com) to bring you Vue Now UI Dashboard PRO Laravel, the ultimate fullstack resource. Vue Now UI Dashboard PRO Laravel comes not only with a huge number of UI components and a Vue Now UI frontend, but also with an API-powered Laravel backend.
 
